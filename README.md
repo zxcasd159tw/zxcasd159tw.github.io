@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
@@ -70,18 +69,18 @@
 </head>
 <body>
     <div id="content-wrapper">
-        <h1 id="mainTitle">你覺得我的網頁寫得好嗎？</h1>
-        <button class="btn btn-yes" id="mainYes" onclick="handleYesClick()">超讚</button>
-        <button class="btn btn-no" id="firstNo" style="left: calc(50% + 80px); top: 50%; transform: translateY(-50%) scale(1);" onclick="handleNoClick(event)">超爛</button>
+        <h1 id="mainTitle">我可以當你的小情人嗎？</h1>
+        <button class="btn btn-yes" id="mainYes" onclick="handleYesClick()">可以</button>
+        <button class="btn btn-no" id="firstNo" style="left: calc(50% + 80px); top: 50%; transform: translateY(-50%) scale(1);" onclick="handleNoClick(event)">不行</button>
     </div>
     <script>
         let yesScale = 1.0;
         let noScale = 1.0;
         const noTexts = [
-            "爛透了 😐",
-            "這種程式碼也敢拿出來？ 😜",
-            "未達完美標準 ❌",
-            "根本一堆Bug吧？ 🧐",
+            "不能  😐",
+            "想都別想  😜",
+            "未達到我的標準 ❌",
+            "下輩子吧 🧐",
             "抓不到我吧嘿嘿 🏃‍♂️💨" 
         ];
         let clickCount = 0;
