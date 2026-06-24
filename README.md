@@ -81,7 +81,7 @@
             "想都別想  😜",
             "未達到我的標準 ❌",
             "下輩子吧 🧐",
-            "抓不到我吧嘿嘿 🏃‍♂️💨" 
+            "就同意吧 ❤️" 
         ];
         let clickCount = 0;
         const mainYes = document.getElementById('mainYes');
@@ -122,5 +122,5 @@
             button.style.transform = `scale(${noScale})`;
         }
         function handleYesClick() {
-            contentWrapper.innerHTML = '<div class="success-message">感謝讚賞！🎉順帶一提我是個小小的繪師，歡迎搜尋追蹤<a href="https://www.pixiv.net/users/5472433" target="_blank">Pixiv：Mepurin</a>😎（<a href="https://www.youtube.com/@Mepurin?sub_confirmation=1" target="_blank">也可以訂閱YouTube頻道喔！</a>）</div>';
+            contentWrapper.innerHTML = '<div class="success-message">愛你唷~~~❤️❤️❤️</div>';
         }
